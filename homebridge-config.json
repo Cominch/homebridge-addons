@@ -1,0 +1,27 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:32",
+        "port": 51826,
+        "pin": "031-45-999"
+    },
+ 
+    "accessories": [
+        {
+            "accessory": "SamsungTV",
+            "name": "TV",
+            "ip_address": "192.168.178.25",
+            "mac_address": "0C:89:10:D4:75:D7"
+        }
+    ],
+ 
+    "platforms": [
+        {
+            "platform": "FRITZ!Box",
+            "name": "FRITZ!Box",
+            "host": "192.168.178.1",
+            "user": "",
+            "password": ""
+        }
+    ]
+}
